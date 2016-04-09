@@ -1,5 +1,8 @@
 package trees;
 
+import java.util.ArrayList;
+import java.util.Stack;
+
 public class TreeBuilder {
 	public static class TreeNode<T>{
 		private T data;
@@ -33,26 +36,43 @@ public class TreeBuilder {
 			return (leftDepth > rightDepth) ? leftDepth + 1 : rightDepth + 1;
 		}
 		
-		public void inOrder(){
-			if(this.leftNode != null) this.leftNode.inOrder();
-			System.out.print(this.data + "\t");
-			if(this.rightNode != null) this.rightNode.inOrder();
+		public void inOrder(ArrayList<T> result){
+			if(this.leftNode != null) this.leftNode.inOrder(result);
+			result.add(data);
+			if(this.rightNode != null) this.rightNode.inOrder(result);
 		}
 		
-		public void inOrderIterative(){
-			
+		public void inOrderIterative(ArrayList<T> result){
+			Stack<TreeNode<T>> traversalStack = new Stack<>();
+			traversalStack.push(this);
+			TreeNode<T> currentNode = this.leftNode;
+			while (!traversalStack.empty() || currentNode != null){
+				if(currentNode != null){
+					traversalStack.push(currentNode);
+					currentNode = currentNode.leftNode;
+				} else {
+					currentNode = traversalStack.pop();
+					result.add(currentNode.data);
+					currentNode = currentNode.rightNode;					
+				}
+			}
 		}
 		
-		public void preOrder(){
-			System.out.print(this.data + "\t");
-			if(this.leftNode != null) this.leftNode.preOrder();
-			if(this.rightNode != null) this.rightNode.preOrder();
+		public void preOrder(ArrayList<T> result){
+			result.add(data);
+			if(this.leftNode != null) this.leftNode.preOrder(result);
+			if(this.rightNode != null) this.rightNode.preOrder(result);
 		}
 		
-		public void postOrder(){
-			if(this.leftNode != null) this.leftNode.postOrder();
-			if(this.rightNode != null) this.rightNode.postOrder();
-			System.out.print(this.data + "\t");
+		public void postOrder(ArrayList<T> result){
+			if(this.leftNode != null) this.leftNode.postOrder(result);
+			if(this.rightNode != null) this.rightNode.postOrder(result);
+			result.add(data);
+		}
+		
+		@Override
+		public String toString() {
+			return this.data.toString();
 		}
 	}
 	
@@ -69,21 +89,5 @@ public class TreeBuilder {
 			return null;
 		}
 		return new TreeNode<Integer>(depth, buildIntTreeOfDepth(depth - 1), buildIntTreeOfDepth(depth -1));
-	}
-	
-	
-	public static void main(String[] args) {
-		TreeNode<Integer> treeOfDepth = buildIntTreeOfDepth(3);
-		System.out.println(treeOfDepth.nodesCount());
-		System.out.println(treeOfDepth.depth());
-		System.out.println("************** In Order ****************");
-		treeOfDepth.inOrder();
-		System.out.println("");
-		System.out.println("************** Pre Order ****************");
-		treeOfDepth.preOrder();
-		System.out.println("");
-		System.out.println("************** Post Order ****************");
-		treeOfDepth.postOrder();
-		System.out.println("");
 	}
 }
