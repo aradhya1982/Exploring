@@ -1,4 +1,4 @@
-package rank.medium;
+package hacker.rank.medium;
 
 import java.util.Scanner;
 
