@@ -2,39 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="690bb282-b728-404d-a8a8-fbce4f6d17b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Interviews/.idea/Interviews.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interviews/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interviews/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interviews/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interviews/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interviews/src/data/structures/trees/TreeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interviews/src/data/structures/trees/TreeBuilderTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSolutions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSolutions.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSolutions.iws" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cisco/set2/ChessBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cisco/set2/CountNumbersForNextNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cisco/set2/NumberPermutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cisco/set2/SudokuValidationWithString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/structures/trees/TreeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/structures/trees/TreeBuilderTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hacker/rank/easy/NumberOfAs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hacker/rank/easy/SockMerchant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hacker/rank/easy/Valleys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hacker/rank/medium/Jumps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hacker/rank/medium/QueueBribes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leet/easy/ReverseListAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leet/hard/TreeFromPreOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interviews/src/rank/easy/NumberOfAs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interviews/src/hacker/rank/easy/NumberOfAs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interviews/src/rank/easy/SockMerchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interviews/src/hacker/rank/easy/SockMerchant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interviews/src/rank/easy/Valleys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interviews/src/hacker/rank/easy/Valleys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interviews/src/rank/medium/Jumps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interviews/src/hacker/rank/medium/Jumps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interviews/src/rank/medium/QueueBribes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interviews/src/hacker/rank/medium/QueueBribes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interviews/src/set2/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interviews/src/cisco/set2/ChessBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interviews/src/set2/CountNumbersForNextNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interviews/src/cisco/set2/CountNumbersForNextNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interviews/src/set2/NumberPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interviews/src/cisco/set2/NumberPermutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interviews/src/set2/SudokuValidationWithString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interviews/src/cisco/set2/SudokuValidationWithString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leet/medium/LongestNonRepeatingSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leet/medium/LongestPalindromeSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSolutions.iws" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSolutions.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/structures/trees/TreeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/structures/trees/TreeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/structures/trees/TreeBuilderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/structures/trees/TreeBuilderTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leet/hard/TreeFromPreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leet/hard/TreeFromPreOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,16 +17,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/structures/trees/TreeBuilderTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,7 +33,61 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leet/medium/LongestNonRepeatingSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leet/medium/LongestPalindromeSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leet/hard/TreeFromPreOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1470">
+              <caret line="100" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/structures/trees/TreeBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2605#2606#0" expanded="true" />
+                <element signature="e#2641#2642#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -69,44 +95,40 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/leet/hard/TreeFromPreOrder.java" />
+        <option value="$PROJECT_DIR$/src/data/structures/trees/TreeBuilder.java" />
         <option value="$PROJECT_DIR$/src/data/structures/trees/TreeBuilderTests.java" />
+        <option value="$PROJECT_DIR$/src/leet/medium/LongestNonRepeatingSubstring.java" />
+        <option value="$PROJECT_DIR$/src/leet/medium/LongestPalindromeSubstring.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1200" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JavaSolutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSolutions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSolutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSolutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,7 +137,9 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -134,13 +158,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreeFromPreOrder">
-    <configuration name="TreeFromPreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet.hard.TreeFromPreOrder" />
+  <component name="RunManager" selected="Application.LongestPalindromeSubstring">
+    <configuration name="LongestNonRepeatingSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet.medium.LongestNonRepeatingSubstring" />
       <module name="JavaSolutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet.hard.*" />
+          <option name="PATTERN" value="leet.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindromeSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet.medium.LongestPalindromeSubstring" />
+      <module name="JavaSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,10 +200,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeBuilderTests.testDepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.structures.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.structures.trees" />
+      <option name="MAIN_CLASS_NAME" value="data.structures.trees.TreeBuilderTests" />
+      <option name="METHOD_NAME" value="testDepth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeBuilderTests.testNodesCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.structures.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.structures.trees" />
+      <option name="MAIN_CLASS_NAME" value="data.structures.trees.TreeBuilderTests" />
+      <option name="METHOD_NAME" value="testNodesCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeFromPreOrder" />
+        <item itemvalue="Application.LongestPalindromeSubstring" />
+        <item itemvalue="Application.LongestNonRepeatingSubstring" />
         <item itemvalue="JUnit.TreeBuilderTests" />
+        <item itemvalue="JUnit.TreeBuilderTests.testNodesCount" />
+        <item itemvalue="JUnit.TreeBuilderTests.testDepth" />
       </list>
     </recent_temporary>
   </component>
@@ -180,39 +252,135 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TreeBuilderTests_testDepth - 2019.04.21 at 11h 12m 48s.xml">
+      <configuration name="TreeBuilderTests.testDepth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBuilderTests_testNodesCount - 2019.04.21 at 11h 16m 53s.xml">
+      <configuration name="TreeBuilderTests.testNodesCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBuilderTests_testNodesCount - 2019.04.21 at 11h 17m 47s.xml">
+      <configuration name="TreeBuilderTests.testNodesCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBuilderTests - 2019.04.21 at 11h 18m 17s.xml">
+      <configuration name="TreeBuilderTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBuilderTests_testNodesCount - 2019.04.21 at 16h 05m 43s.xml">
+      <configuration name="TreeBuilderTests.testNodesCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBuilderTests - 2019.04.21 at 16h 05m 53s.xml">
+      <configuration name="TreeBuilderTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBuilderTests - 2019.04.21 at 16h 07m 23s.xml">
+      <configuration name="TreeBuilderTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBuilderTests - 2019.04.21 at 16h 07m 31s.xml">
+      <configuration name="TreeBuilderTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBuilderTests - 2019.04.21 at 16h 07m 39s.xml">
+      <configuration name="TreeBuilderTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeBuilderTests - 2019.04.21 at 16h 08m 43s.xml">
+      <configuration name="TreeBuilderTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30984643" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39385727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Json Parser" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956687" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956687" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32881662" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Json Parser" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Math.pow(depth, 2)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.rightNode.nodesCount()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(this.leftNode == null ? 0 :</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="448" column="5" selection-start-line="448" selection-start-column="5" selection-end-line="448" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/structures/trees/TreeBuilderTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet/medium/LongestNonRepeatingSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet/hard/TreeFromPreOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="100" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/structures/trees/TreeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2605#2606#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet/medium/LongestPalindromeSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -25,13 +25,16 @@ public class TreeBuilderTests {
 	public void setUp() throws Exception {
 		depth = new Random().nextInt(10);
 //		depth = 3;
+		System.out.println("Tree depth = " + depth);
 		depthTree = TreeBuilder.buildIntTreeOfDepth(depth);
 	}
 
 	@Test
 	public void testNodesCount() {
-		int actualCount = (int)Math.pow(depth, 2) - 1;
+		System.out.println("************** tree depth ****************");
+		int actualCount = (int)Math.pow(2, depth) - 1;
 		int expectedCount = depthTree.nodesCount();
+		System.out.println("Tree with depth: " + depth + " has " + expectedCount + " nodes.");
 		assertEquals(expectedCount, actualCount);
 	}
 
@@ -72,6 +75,12 @@ public class TreeBuilderTests {
 		depthTree.postOrder(postorderRecursive);
 		System.out.println(postorderRecursive.toString());
 	}
-	
 
+	@Test
+	public void testLevelOrder() {
+		System.out.println("************** Level Order ****************");
+		ArrayList<Integer> levelOrder = new ArrayList<>();
+		depthTree.levelOrder(levelOrder);
+		System.out.println(levelOrder.toString());
+	}
 }

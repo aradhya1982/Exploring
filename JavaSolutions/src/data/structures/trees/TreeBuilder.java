@@ -1,6 +1,8 @@
 package data.structures.trees;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class TreeBuilder {
@@ -68,6 +70,17 @@ public class TreeBuilder {
 			if(this.leftNode != null) this.leftNode.postOrder(result);
 			if(this.rightNode != null) this.rightNode.postOrder(result);
 			result.add(data);
+		}
+
+		public void levelOrder(ArrayList<T> result) {
+			Queue<TreeNode> q = new ArrayDeque<>();
+			q.add(this);
+			while (!q.isEmpty()) {
+				TreeNode currentNode = q.remove();
+				result.add((T) currentNode.getData());
+				if (currentNode.leftNode != null) { q.add(currentNode.leftNode); }
+				if (currentNode.rightNode != null) { q.add(currentNode.rightNode); }
+			}
 		}
 		
 		@Override
